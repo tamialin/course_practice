@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+    <meta name="viewport" content = "with=device-width, initial-scale=1.0">
+    <title>University Website Design - Easy Tutorials</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+<!--    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css">-->
+    <script src="https://kit.fontawesome.com/73c7b58b2f.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+<section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="Images/logo.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="0-index.html">HOME</a></li>
+                <li><a href="1-about.html">ABOUT</a></li>
+                <li><a href="2-course.html">COURSE</a></li>
+                <li><a href="3-blog.html">BLOG</a></li>
+                <li><a href="4-contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i> 
+    </nav>
+    <h1>About Us</h1>
+</section>
+    
+<!------About us content------>
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>We are the world's largest university</h1>
+            <p>Located in Redlands, California, the University of Redlands is an independent, coeducational liberal arts and sciences university of 5,000 students. Approximately 2,500 of these students are enrolled in the College of Arts and Sciences, with over 70% residing in on-campus housing. The remainder of the student body is enrolled in the University’s programs for graduate and professional students in business or education, attending classes either on campus or at locations throughout Southern California. The University is accredited by the Western Association of Schools and Colleges and is governed by a Board of Trustees. It is one of 283 colleges and universities in the country to have an active chapter of Phi Beta Kappa.</p>
+            <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+        </div>
+        <div class="about-col">
+            <img src="images/about.jpg">
+        </div>
+    </div>
+</section>
+    
+<!------Footer------>
+<section class="footer">
+    <h4>About Us</h4>
+    <p>dcdsfhfgh sh fjdgh sldkg lsdkhflh sdif fjg d sdfj sdjfhjk hdfs dhfjklsdh lajri alsjdflashdklas gfsdkljgkl<br>jskldjfklsdhg jklhsdlkj glfjk jkhk kgfk gjkfhjkdfj</p>
+    <div class="icons" style="color:#f44336">
+        <i class="fa fa-facebook-f"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> by Easy Tutorials</p>
+</section>
+    
+<!-------JavaScript for Toggle Menu-------->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+    
+</body>  
+</html>

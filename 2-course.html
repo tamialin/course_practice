@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+    <meta name="viewport" content = "with=device-width, initial-scale=1.0">
+    <title>University Website Design - Easy Tutorials</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+<!--    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css">-->
+    <script src="https://kit.fontawesome.com/73c7b58b2f.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+<section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="Images/logo.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="0-index.html">HOME</a></li>
+                <li><a href="1-about.html">ABOUT</a></li>
+                <li><a href="2-course.html">COURSE</a></li>
+                <li><a href="3-blog.html">BLOG</a></li>
+                <li><a href="4-contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i> 
+    </nav>
+    <h1>Our courses</h1>
+</section>
+    
+<!------Course------>
+<section class="course">
+    <h1>Course We Offer</h1>
+    <p>dcgjkfhjdfg sfj gkf k dghefahdfgh jfgdj kdfj</p>
+    <div class="row">
+        <div class="course-col">
+            <h3>Intermediate</h3>
+            <p>skldjgh sldghaskdbv xc,mvnzdklfjgh klsjdhzgfkl ashdvkhsdfh jsdh nvm,sn oshdklgh vnm,xcn g slkfjsdlvhjv ud nkclsacol.</p>
+        </div>
+        <div class="course-col">
+            <h3>Degree</h3>
+            <p>skldjgh sldghasksdkjgsh lkudfgh dh goisjfl;sdmj g ioh oisdhfiosd jfh ssdfgh jh dfj tt hfgb eg df bfhe dgxfsdfsdgh dbv xc,mvnud nkclsacol.</p>
+        </div>
+        <div class="course-col">
+            <h3>Post Graduation</h3>
+            <p>skldjgxdfklgh kjsdjvhlsgdfiogjl jdklfghso gs dhils lsdjfios sj klcnvh fsdfkljsklvhiogj;s kl h sldghaskdbv xc,mvnud nkclsacol.</p>
+        </div>
+    </div>
+</section>
+    
+<!------Facilities------>
+<section class="facilities">
+    <h1>Our Facilities</h1>
+    <p>dcdsfhfgh sh fjdgh jkhk kgfk gjkfhjkdfj</p>
+    <div class="row">
+        <div class="facilities-col">
+            <img src="Images/library.png">
+            <h3>World Class Library</h3>
+            <p>fgh sldkfhl  daslkfj bfdjkgn lsdfkjsdklfj fjkdlsgjh kdjfkdj jaskdfh dk fjdkldf dlfkjfdsjflkdj.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="Images/basketball.png">
+            <h3>Largest Playground</h3>
+            <p>fgh sldkfhl  daslkfj bfdjkgn lsdfkjsdklfj fjkdlsgjh kdjfkdj jaskdfh dk fjdkldf dlfkjfdsjflkdj.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="Images/cafeteria.png">
+            <h3>Tasty and Healthy Food</h3>
+            <p>fgh sldkfhl  daslkfj bfdjkgn lsdfkjsdklfj fjkdlsgjh kdjfkdj jaskdfh dk fjdkldf dlfkjfdsjflkdj.</p>
+        </div>
+    </div>
+</section>
+    
+<!------Footer------>
+<section class="footer">
+    <h4>About Us</h4>
+    <p>dcdsfhfgh sh fjdgh sldkg lsdkhflh sdif fjg d sdfj sdjfhjk hdfs dhfjklsdh lajri alsjdflashdklas gfsdkljgkl<br>jskldjfklsdhg jklhsdlkj glfjk jkhk kgfk gjkfhjkdfj</p>
+    <div class="icons" style="color:#f44336">
+        <i class="fa fa-facebook-f"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> by Easy Tutorials</p>
+</section>
+    
+<!-------JavaScript for Toggle Menu-------->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+    
+</body>  
+</html>
